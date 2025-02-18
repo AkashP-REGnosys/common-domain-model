@@ -2,7 +2,7 @@ name: Auto Label Issues
 
 on:
   issues:
-    types: [opened]
+    types: [opened]  # Trigger when an issue is opened
 
 jobs:
   label:
@@ -12,4 +12,4 @@ jobs:
         uses: actions/labeler@v3
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          labels: 'bug' # Replace with the label you want to auto-assign
+          labels: 'bug'  # Replace with the label you want to auto-assign
