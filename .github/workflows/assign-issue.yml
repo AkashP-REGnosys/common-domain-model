@@ -1,15 +1,15 @@
-name: Auto Assign Issues
+name: Auto Label Issues
 
 on:
   issues:
     types: [opened]
 
 jobs:
-  assign:
+  label:
     runs-on: ubuntu-latest
     steps:
-      - name: Assign user to the issue
-        uses: peter-evans/assign-issue@v2
+      - name: Add label to the issue
+        uses: actions/labeler@v3
         with:
-          issue-number: ${{ github.event.issue.number }}
-          assignees: 'AkashP-REGnosys'
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          labels: 'bug' # Replace with the label you want to auto-assign
