@@ -10,6 +10,13 @@ body:
       required: true
   - type: textarea
     attributes:
+      label: Proposal
+      description: Please put details of the proposed changes in here, Splitting the changes into sections will improve comprehension of the proposal.
+                  Use graphics where possible e.g. before/after pictures of the model enhancements
+    validations:
+      required: true
+  - type: textarea
+    attributes:
       label: Additional context
       description: Add any other context about the problem here.
     validations:
