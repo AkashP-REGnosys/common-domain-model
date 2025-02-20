@@ -5,7 +5,10 @@ labels: 'bug'
 assignees:
 title: Proposed change to the CDM
 body:
-  - type: markdown
+  - type: textarea
     attributes:
-      value: If you're reporting a security issue, don't create a GitHub issue. Instead, visit https://contribute.freecodecamp.org/#/security.
+      label: Describe the Issue
+      description: A clear and concise description of the issue you encountered.
+    validations:
+      required: true
 ---
