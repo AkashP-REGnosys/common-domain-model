@@ -17,6 +17,14 @@ body:
       required: true
   - type: textarea
     attributes:
+      label: Compatibility
+      description: If known, please describe any compatibility issues that this change may have_
+                  _with existing versions. Please review the list of backwardly incompatible_
+                  \n_changes and in the design principles for assistance.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
       label: Additional context
       description: Add any other context about the problem here.
     validations:
