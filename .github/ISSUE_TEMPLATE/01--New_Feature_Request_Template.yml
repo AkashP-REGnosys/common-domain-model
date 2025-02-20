@@ -29,12 +29,11 @@ body:
       description: Add any other context about the problem here.
     validations:
       required: false
-  - type: checkbox
+  - type: markdown
     attributes:
-      label: 'Please ensure the following before submitting the issue'
-      options:
-        - label: 'Include the source of the Issue i.e. is it from the Roadmap, from a Working Group recommendation'
-        - label: 'describe the scope of the change, work item or deliverable
-        - label: 'be written in “plain English” i.e. try not to use niche business or technical terminology'
-    validations:
-      required: true
+      value: |
+        ### Any Issue must (Please make sure all boxes are ticked before submitting)
+        
+        - [ ] include the source of the Issue i.e. is it from the Roadmap, from a Working Group recommendation, github discussions etc
+        - [ ] describe the scope of the change, work item or deliverable
+        - [ ] be written in “plain English” i.e. try not to use niche business or technical terminology
