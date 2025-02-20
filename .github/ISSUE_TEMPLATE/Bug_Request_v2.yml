@@ -1,8 +1,8 @@
-name: Bug Rquest 3
+name: Bug request
 about: bug
 labels: 'bug'
 assignees:
-title: Proposed change to the CDM
+title: Proposed change to the CDMs
 body:
   - type: markdown
     attributes:
