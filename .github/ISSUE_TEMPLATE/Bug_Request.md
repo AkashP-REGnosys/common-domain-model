@@ -1,4 +1,3 @@
----
 name: Bug Rquest
 about: bug
 labels: 'bug'
@@ -11,4 +10,4 @@ body:
       description: A clear and concise description of the issue you encountered.
     validations:
       required: true
----
+
