@@ -1,8 +1,8 @@
 name: Bug request
-about: bug
+about: bug request
 labels: 'bug'
 assignees: []
-title: Proposed change to the CDMs
+title: bug change to cdb
 body:
   - type: textarea
     attributes:
